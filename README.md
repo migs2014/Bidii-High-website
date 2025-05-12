@@ -31,18 +31,18 @@ The site incorporates animations, a dynamic image slider, form validation, and a
 ---
 
 ## Installation & Setup
-### 1. Clone the repository:
+**1. Clone the repository:**
 ```sh
 git clone https://github.com/your-repo/bidii-high-school.git
 
 
 
-2. Open the project in a browser:
+** 2. Open the project in a browser:**
 •	Navigate to the project folder.
 •	Open index.html in a web browser.
-3. To modify styles:
+**3. To modify styles:**
 Edit styles.css for layout changes.
-4. To enhance functionality:
+**4. To enhance functionality:**
 Modify script.js for interactivity.
 
 **Contribution**
@@ -52,6 +52,6 @@ Contributions are welcome! To contribute:
 3.	Commit your changes (git commit -m "Feature update").
 4.	Push (git push origin feature-branch).
 5.	Submit a Pull Request.
-License
+**License**
 This project is licensed under MIT License.
 
