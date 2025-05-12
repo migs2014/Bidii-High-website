@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    padding-top: 70px; /* Prevent content from being hidden under fixed navbar */
+}
+
+.header {
+    background: #00509d;
+    color: white;
+    padding: 15px;
+    position: fixed; /* Keeps navbar at the top */
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centers navigation links */
+}
+
+nav ul li {
+    margin: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background: #003f7f;
+    border-radius: 5px;
+}
+
+.home img {
+    width: 80%;
+    max-width: 200px;
+}
+
+.contact-form {
+    margin-top: 20px;
+}
+
+button {
+    background: #008CBA;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #00509d;
+}
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.home h2, .home p {
+    animation: fadeIn 1s ease-in-out;
+}
+/* Image slider */
+.slider {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.image-slider img {
+    width: 200px; /* Adjust size as needed */
+    height: auto;
+    border-radius: 10px;
+}
+/* Footer */
+footer {
+    background: rgb(60, 59, 59);
+    color: white;
+    text-align: center;
+    padding: 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;   
+}
+/* curriculum lists */
+.curriculum ul {
+    list-style: none; /* Remove default bullet styling */
+    padding: 0;
+    text-align: center; /* Center the text */
+}
+
+.curriculum ul li {
+    display: inline-block; /* Make each list item inline */
+    margin: 5px 10px; /* Add spacing between items */
+    text-align: center; /* Center the text within each item */
+    list-style-type: disc; /* Add custom bullet points */
+}
+.sports ul {
+    list-style: none; /* Remove default bullet styling */
+    padding: 0;
+    text-align: center; /* Center the text */
+}
+
+.sports ul li {
+    display: inline-block; /* Make each list item inline */
+    margin: 5px 10px; /* Add spacing between items */
+    text-align: center; /* Center the text within each item */
+    list-style-type: disc; /* Add custom bullet points */
+}
+
+
